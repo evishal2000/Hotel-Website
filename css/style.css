@@ -94,7 +94,7 @@ p{  margin:10px 1px;}
     padding-bottom: 28px;
 }
 /* home info*/
-#info{ height:400px;}
+#info{ display:block;height:400px;}
 #info .info-img{
     float: left;
     width:50%;
@@ -153,14 +153,14 @@ p{  margin:10px 1px;}
 #reviews .comment img{ float:left;
     margin-right: 10px;
     width:140px;
-    height:120px;
+    height:100px;
     padding:10px;
     border-radius: 50%;
     }
 #reviews .comment {
     opacity:0.9;
     padding-top:20px;
-    height:150px;
+    min-height:120px;
     margin:20px;
 }    
 #reviews h2{

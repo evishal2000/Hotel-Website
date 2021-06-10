@@ -18,6 +18,9 @@
     float:none;
     width:100%;    
 }
+#info .btn{
+    display: none;
+}
 /*logo boxes*/
 .box{
     float:none;
