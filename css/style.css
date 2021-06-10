@@ -55,6 +55,7 @@ h1,h2,h3{   padding-bottom: 20px;}
 
 p{  margin:10px 1px;}
 
+/* navbar*/
 #navbar{background-color:rgb(44,42,42) ;
     color: aliceblue;
     overflow: auto; }
@@ -62,7 +63,7 @@ p{  margin:10px 1px;}
 #navbar a{
     color: aliceblue;}
 
-#navbar h1{    float: left;
+#navbar .logo{    float: left;
     padding-top: 10px; }
 #navbar ul{
     float:right;
@@ -92,7 +93,8 @@ p{  margin:10px 1px;}
 #case .case-content p{
     padding-bottom: 28px;
 }
-#info{ height:362px;}
+/* home info*/
+#info{ height:400px;}
 #info .info-img{
     float: left;
     width:50%;
@@ -107,6 +109,7 @@ p{  margin:10px 1px;}
     padding:40px 30px;
 }
 #info .info-content p{ padding-bottom: 50px;}
+/*logo boxes */
 .box{
     height:300px ;
     float: left;
@@ -120,6 +123,10 @@ p{  margin:10px 1px;}
     color:aliceblue;
     padding:10px;   
 }
+/* about */
+.l{
+    padding-top: 5px;
+}
 #about-info .info-left{
     float:left;
     width:50%;
@@ -132,13 +139,14 @@ p{  margin:10px 1px;}
 }
 #about-info .info-right img{
     display:block;
-    width:100%;
-    min-height: 100%;
+    width:80%;
+    margin:auto;
     border-radius:30% ;
 } 
+
 #reviews{
-    height: 600px;;
-    width:1265px;
+    height: 100%;
+    width:100%;
     background-image: url("../img/photo-2.jpg") ;
 
 }
@@ -179,3 +187,4 @@ p{  margin:10px 1px;}
 #c-form textarea{
     height:200px;
 }
+
